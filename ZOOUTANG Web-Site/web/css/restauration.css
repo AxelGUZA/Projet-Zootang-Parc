@@ -1,0 +1,63 @@
+
+/* Page de restauration */
+
+
+nav {
+	margin: 1% 5%;
+	border : 1px solid black;
+}
+
+nav a {
+	font-size: 25px;
+	
+} 
+
+
+#billeterie,#restauration,#statistique,#inscrisption,#connecte{
+	display: inline-block;
+	padding: 1% 2%;
+}
+
+#billeterie:hover,#inscrisption:hover,#connecte:hover{
+	background-color: grey;
+}
+
+#restauration:hover{
+	background-color: grey;
+}
+
+#statistique:hover{
+	background-color: grey;
+}
+
+#inscrisption{
+		margin-left: 46.5%;
+}
+section article aside{
+	display: inline-block; 
+	margin: 0% 2% 2% 8%;
+	margin-top: 2%;
+}
+
+
+
+h2{
+	margin:0% 5%;
+	font-size: 28px;
+}
+
+h3{
+	
+	margin-left: 72%;
+}
+
+h4{
+	display: inline-block;
+	font-size: 25px;
+	margin-bottom: 10%;
+}
+
+#blockFlechePlusTitre{
+	float: left;
+	margin-bottom: 100%;
+}

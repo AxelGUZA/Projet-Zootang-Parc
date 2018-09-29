@@ -1,0 +1,42 @@
+#blocInformation{
+  margin-left: 0%;
+}
+
+#blocCreerFournisseur{
+margin-top: 3%;  
+}
+
+#modifier{
+  margin-left:3%;
+}
+
+#rechercher{
+  margin-left: 36.5%;
+}
+#boutonCreer
+{
+  margin-left:30%;
+}
+
+#intervention{
+  margin-left:3%;
+}
+#prix{
+   margin-left: 40.3%;
+}
+
+#type{
+  margin-left: 21.5%;
+}
+#fournisseur,#commande,#salarie,#clients,#stock,#statistique,#materiel,#intervention,#maintenance,#contrat,#paiement,#pointage,#restauration{
+	display: inline-block;
+	padding: 1% 0.3565%;
+}
+
+article p{
+  margin-left: 40%;
+}
+
+table{
+  width: 160%;
+}

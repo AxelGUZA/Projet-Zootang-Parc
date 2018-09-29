@@ -1,0 +1,105 @@
+/* Commun a l'entreprise*/
+
+nav {
+	margin: 1% 5%;
+	border : 1px solid black;
+}
+
+nav a {
+	font-size: 20px;
+	display: inline-block;
+	width: 5%;
+	
+} 
+
+#fournisseur,#commande,#salarie,#clients,#stock,#statistique,#materiel,#intervention,#maintenance,#contrat,#paiement,#pointage,#restauration,#Stock,#Restauration{
+	display: inline-block;
+	padding: 1% 0.4867%;
+}
+
+#fournisseur:hover,#commande:hover,#salarie:hover,#clients:hover,#stock:hover,#statistique:hover,#materiel:hover,#intervention:hover,#maintenance:hover,#contrat:hover,#Stock:hover,#paiement:hover,#pointage:hover,#restauration:hover{
+	background-color: grey;
+}
+
+
+section article aside{
+	display: inline-block; 
+	margin: 0% 2% 2% 5%;
+	margin-top: 2%;
+}
+
+
+
+h2{
+	margin:0% 5%;
+	font-size: 28px;
+}
+
+h3{
+	
+	margin-left: 72%;
+}
+
+
+
+h4{
+	font-size: 20px;
+	margin-bottom: 10%;
+}
+
+#blocBoutonInformation{
+	margin-left: 5%;
+	margin-bottom: 2%;
+}
+
+#modifier,#rechercher{
+	border:1px solid black;
+	padding: 1% 2%;
+}
+
+#rechercher{
+	margin-left: 17.2%;
+	
+}
+
+#Creer:hover,#modifier:hover,#rechercher:hover{
+	background-color: grey;
+}
+
+#blocCreerFournisseur,#blocCreerCommun{
+  float: right;
+  margin: 10% 15% 0% 0%;
+}
+
+#blocTextInformation {
+
+	padding: 1% 3% 0% 3%;
+}
+
+#boutonCreer{
+	margin-top: 15%;
+}
+#Creer{
+	font-size: 20px;
+	border: 1px solid;
+	padding: 7% 15%;
+}
+
+section input,select{
+  margin-bottom: 2%;
+	
+}
+
+table{
+  border: 1px solid;
+  width: 120%;
+ text-align: center;
+}
+
+
+
+td{
+  border: 1px solid;
+  text-align: center;
+  padding: 2.5% 0% 2.5% 0%;
+}

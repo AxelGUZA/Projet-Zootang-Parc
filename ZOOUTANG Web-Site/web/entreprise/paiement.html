@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Entreprise</title>
+		<link rel="stylesheet" type="text/css" href="../css/commun.css">
+		<link rel="stylesheet" type="text/css" href="../css/communEntreprise.css">
+		<link rel="stylesheet" type="text/css" href="../css/paiement.css">
+
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+
+		<div id="blockPage">
+			<header>
+				<a href="../../index.html"><img src="../images\imageLogo.png" id="imageLogo"></a>
+				<a href="accueilEntreprise.html"><h1 id="titrePrincipale">ZOOUTANG</h1></a>
+				<h3>Vous êtes Mr </h3>
+			</header>
+
+			<nav>
+				
+				
+				<div id="clients">
+					<a href="clientEntreprise.html">Clients</a>
+				</div>
+
+				<div id="commande">
+					<a href="commande.html">Commande</a>
+				</div>
+
+				<div id="contrat">
+					<a href="contrat.html">Contrat</a>
+				</div>
+
+				<div id="fournisseur">
+					<a href="fournisseur.html">Fournisseur</a>
+				</div>
+
+				<div id="intervention">
+					<a href="intervention.html">Intervention</a>
+				</div>
+
+				<div id="maintenance">
+					<a href="maintenance.html">Maintenance</a>
+				</div>
+
+				<div id="materiel">
+					<a href="materiel.html">Materiel</a>
+				</div>
+
+				<div id="paiement">
+					<a href="paiement.html">Paiement</a>
+				</div>
+
+				<div id="pointage">
+					<a href="pointage.html">Pointage</a>
+				</div>
+
+				<div id="restauration">
+					<a href="restaurationEntreprise.html">Restauration</a>
+				</div>
+
+				<div id="salarie">
+					<a href="salarie.html">Salariés</a>
+				</div>
+
+				<div id="statistique">
+					<a href="statistique.html">Statistique</a>
+				</div>
+
+				<div id="stock">
+					<a href="stock.html">Stock</a>
+				</div>
+
+				
+			</nav>
+
+			<section>
+				 <h2>Paiement</h2>
+
+				 <article id="blocCreerFournisseur">
+					<form>
+
+						<div id="Type">
+							<label for="type">Type</label> :
+							 <select name="type" id="type">
+							 	<option value="Fournisseur">Fournisseur</option>
+							 	<option value="Impôt">Impôt</option>
+							 	<option value="Taxe">Taxe</option>
+							 	<option value="Salaire">Salaire</option>
+							 	<option value="Commande">Commande</option>
+							 	<option value="Intervention">Intervention</option>
+							 	<option value="achatdeMateriel">achatdeMateriel</option>
+							 	<option value="achatdeProduit">achatdeProduit</option>
+							 </select>	
+						</div>
+
+						<div id="blocNom">
+							<label for="nom">Nom</label> :
+							 <input type="text" name="nom" placeholder="André" id="nom">	
+						</div>
+
+
+						<div id="blocIban">
+							<label for="iban">IBAN</label> :
+							 <input type="text" name="iban" placeholder="15141XFRD-154SDF" id="iban">	
+						</div>
+
+						
+
+						<div id="blocMontant">
+							<label for="montant">Montant</label> :
+							 <input type="text" name="montant" placeholder="50€" id="montant">	
+						</div>
+
+						<div id="blocHD">
+							<label for="date">Date</label> :
+							 <input type="text" name="date" placeholder="17/08/2018" id="date">	
+						</div>
+
+										
+					</form>	
+					
+					<div id="boutonCreer">
+						<a href="CreerPaiement.html" id="Creer">Créer</a>
+					</div>
+				</article>
+					
+				<article>
+					<div id="blocInformation">
+						<aside id="blocTextInformation">
+							
+
+							<table>
+								<tr>
+									<td>Type</td>
+									<td>IBAN</td>
+									<td>Nom</td>
+									<td>Montant</td>
+									<td>Date</td>
+									
+									
+								</tr>
+								<tr>
+									<td>Fournisseur</td>
+									<td>15141XFRD-154SDF</td>
+									<td>André</td>
+									<td>50 €</td>
+									<td>17/08/2018</td>
+									
+									
+								</tr>
+
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									
+									
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									
+									
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									
+								</tr>
+							</table>
+							
+						</aside>
+						<div id="blocBoutonInformation">
+							<a href="recherchePaiement2.html" id="modifier">Modifier</a>
+							<a href="recherchePaiement.html" id="rechercher">Rechercher</a>
+						</div>
+				</article>
+					
+
+			</section>
+
+			<footer>
+				
+			</footer>
+		</div>
+
+	</body>
+
+</html>

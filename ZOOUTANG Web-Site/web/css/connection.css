@@ -1,0 +1,55 @@
+
+
+section{
+	margin-top: 7%;
+}
+
+article{
+	margin-left:40.5%;
+}
+
+form{
+	margin: 1%;
+}
+
+h3{
+	font-size: 19px;
+	margin-left: 58%;
+}
+
+
+#motsDePasse{
+	margin-left: 56px;
+}
+
+#boutonConnexion{ 
+	margin-top : 4%;
+	margin-left: 45%
+}
+
+#boutonConnexion a{
+	margin-left: 40.5;
+	font-size: 22px;
+	padding: 25px 30px;
+	border : 1px solid black;
+}
+
+#boutonConnexionInviter {
+	margin-top : 8%;
+	margin-left: 41.5%
+}
+
+#boutonConnexionInviter a{
+		margin-left: 40.5;
+	font-size: 22px;
+	padding: 25px 30px;
+	border : 1px solid black;
+}
+
+#boutonConnexion a:hover,#boutonConnexionInviter a:hover{
+	background-color: grey;
+}
+
+#mdp{
+	margin-left: 41%;
+}

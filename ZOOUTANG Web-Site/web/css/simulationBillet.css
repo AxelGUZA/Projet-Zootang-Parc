@@ -1,0 +1,16 @@
+img{
+  margin-left:66.5%;
+}
+
+#boutonImprimer{
+  margin-left: 47.5%;
+}
+
+#boutonImprimer a{
+  border: 1px solid;
+  padding: 1% 2%;
+}
+
+#boutonImprimer a:hover{
+  background-color: grey;
+}

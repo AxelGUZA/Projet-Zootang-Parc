@@ -1,0 +1,38 @@
+/* Page de Statistique */
+
+nav {
+	margin: 1% 5%;
+	border : 1px solid black;
+}
+
+h2{
+	margin:0% 5%;
+	font-size: 28px;
+}
+
+h3{
+	
+	margin-left: 72%;
+}
+
+aside img{
+	margin-left: 40%; 
+}
+section aside {
+	display: inline-block;
+}
+
+ aside form {
+	float:right;
+	 margin-left: 20%;
+	 margin-bottom: 100%;
+}
+
+
+form input{
+	display: inline-block;
+}
+
+#nbPersonne{
+	margin-left: 18%;
+}

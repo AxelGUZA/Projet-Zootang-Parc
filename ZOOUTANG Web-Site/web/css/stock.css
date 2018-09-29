@@ -1,0 +1,63 @@
+#blocCreerStock{
+	float: right;
+}
+
+#blocTextInformation{
+	padding: 1% 0% 1% 0%;
+
+}
+
+#blocCreerStock{
+	margin : 5% 5% 1% 1%;
+}
+
+#type{
+	margin-left: 30%;
+	width:40%;
+		margin-bottom: 2%;
+}
+
+#Numero{
+	margin-left: 3%;
+	width:40%;
+		margin-bottom: 2%;
+}
+
+#nomProduit{
+	margin-left: 8%;
+	width:40%;
+	margin-bottom: 2%;
+}
+
+#nombreDeProduits{
+	width:40%;
+	margin-bottom: 2%;
+}
+
+#boutonCreer{
+	margin-top: 8%;
+	margin-left: 40%;
+}
+
+#Creer{
+	font-size : 20px;
+	border: 1px solid;
+	padding: 5% 10%;
+}
+
+#Creer:hover,#modifier:hover,#rechercher:hover{
+	background-color: grey;
+}
+
+#blocCommentaire label{
+	padding: 5%;
+}
+
+#blocCommentaire textarea{
+	width: 84%;
+	height: 100px;
+}
+
+#rechercher{
+	margin-left: 46.8%;
+}

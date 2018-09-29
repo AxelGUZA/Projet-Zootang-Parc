@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Entreprise</title>
+		<link rel="stylesheet" type="text/css" href="../css/commun.css">
+		<link rel="stylesheet" type="text/css" href="../css/communEntreprise.css">
+		<link rel="stylesheet" type="text/css" href="../css/modificationCommun.css">
+		<link rel="stylesheet" type="text/css" href="../css/modificationClient.css">
+
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+
+		<div id="blockPage">
+			<header>
+				<a href="../../index.html"><img src="../images\imageLogo.png" id="imageLogo"></a>
+				<a href="accueilEntreprise.html"><h1 id="titrePrincipale">ZOOUTANG</h1></a>
+				<h3>Vous êtes Mr </h3>
+			</header>
+
+			<nav>
+				
+				
+				<div id="clients">
+					<a href="clientEntreprise.html">Clients</a>
+				</div>
+
+				<div id="commande">
+					<a href="commande.html">Commande</a>
+				</div>
+
+				<div id="contrat">
+					<a href="contrat.html">Contrat</a>
+				</div>
+
+				<div id="fournisseur">
+					<a href="fournisseur.html">Fournisseur</a>
+				</div>
+
+				<div id="intervention">
+					<a href="intervention.html">Intervention</a>
+				</div>
+
+				<div id="maintenance">
+					<a href="maintenance.html">Maintenance</a>
+				</div>
+
+				<div id="materiel">
+					<a href="materiel.html">Materiel</a>
+				</div>
+
+				<div id="paiement">
+					<a href="paiement.html">Paiement</a>
+				</div>
+
+				<div id="pointage">
+					<a href="pointage.html">Pointage</a>
+				</div>
+
+				<div id="restauration">
+					<a href="restaurationEntreprise.html">Restauration</a>
+				</div>
+
+				<div id="salarie">
+					<a href="salarie.html">Salariés</a>
+				</div>
+
+				<div id="statistique">
+					<a href="statistique.html">Statistique</a>
+				</div>
+
+				<div id="stock">
+					<a href="stock.html">Stock</a>
+				</div>
+
+				
+			</nav>
+			
+
+			<section>
+				 <h2>modification d'une journée au parc </h2>
+
+				 <article id="blocModifierClient">
+					<form>
+						<div id="blocRestaurant">
+							<label for="restaurant">Restaurant </label> :
+							 <select name="restaurant" id="restaurant">
+							 	<option value="restaurantsNord">RestaurantsNord</option>
+						 		<option value="restaurantEst">RestaurantEst</option>
+						 		<option value="restaurantsOuest">RestaurantsOuest</option>
+						 		<option value="restaurantsSud">RestaurantsSud</option>
+						 	</select>
+						</div>
+
+						<div id="blocNbTable">
+							<label for="nbTable">Nombre de table</label> :
+							 <input type="text" name="nbTable" placeholder="5" id="nbTable">	
+						</div>
+
+						<div id="blocNbCouverts">
+							<label for="nbCouverts">Nombre de couverts</label> :
+							 <input type="text" name="nbCouverts" placeholder="25" id="nbCouverts">	
+						</div>
+
+						
+						 <div id="blocStock">
+						 	<label for="stock">Stocks</label> :
+						 	<select name="stock" id="stock">
+						 		<option value="averifier">A Verifier</option>
+						 		<option value="plein">Plein</option>
+						 	</select>
+						 </div>	
+
+						 <div id="blocRecette">
+							<label for="recette">Recette</label> :
+							 <input type="text" name="recette" placeholder="500" id="recette">	
+						</div>
+
+					</form>	
+						
+					
+				</article>
+
+				<article id="BlocBoutonModif">
+					<div id="boutonRetour">
+						<a href="rechercheRestauration.html" id="retour">Retour</a>
+					</div>
+					<div id="boutonSupprimer">
+						<a href="restaurationEntreprise.html" id="supprimer">Supprimer</a>
+					</div>
+					<div id="boutonValider">
+						<a href="restaurationEntreprise.html" id="valider">Valider</a>
+					</div>
+				</article>
+
+			</section>
+
+			<footer>
+				
+			</footer>
+		</div>
+
+	</body>
+
+</html>

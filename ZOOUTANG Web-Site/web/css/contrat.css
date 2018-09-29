@@ -1,0 +1,65 @@
+#blocCreerContrats{
+  float: right;
+  margin: 5% 20% 0% 0%;
+}
+
+#blocTextInformation{
+ 
+  padding: 1% 1% 1% 0.5%;
+}
+
+#blocTextInformation p{
+  padding-bottom: 3%;
+}
+
+#modifier,#rechercher{
+  border: 1px solid;
+  padding: 1% 2%;
+}
+
+#blocBoutonInformation{
+  margin-left: 5%;
+}
+
+#rechercher{
+    margin-left: 34%;
+}
+
+#boutonCreer{
+  margin-top: 10%;
+  margin-left: 35%;
+}
+
+#Creer{
+  font-size: 20px;
+  border:1px solid;
+  padding: 7% 10%;
+}
+
+#blocNumero input{
+  margin-left:25.5%;
+}
+
+#blocContact input{
+   margin-left:32.8%;
+}
+
+#blocType input{
+  margin-left:32.7%;
+}
+
+#blocPrix input{
+  margin-left: 34.5%;
+}
+
+#Creer:hover,#modifier:hover,#rechercher:hover{
+  background-color: grey;
+}
+
+#blocNumero,#blocContact,#blocNomEntreprise,#blocType,#blocPrix{
+  margin-bottom: 3%;
+}
+
+table{ 
+  width: 200%;
+}

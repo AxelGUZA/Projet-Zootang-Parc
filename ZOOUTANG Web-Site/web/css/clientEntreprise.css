@@ -1,0 +1,70 @@
+#blocCreerclient{
+    margin: 3% 10% 0% 0%;
+  float: right;
+   
+}
+
+#blocTextInformation {
+
+  margin-left: 2%;
+  
+}
+
+
+#blocBoutonInformation {
+   margin-left: 5%;
+  
+}
+
+#blocBoutonInformation a{
+  border: 1px solid;
+  padding: 1% 2%;
+}
+
+#blocBoutonInformation a:hover{
+  background-color: grey;
+}
+
+#rechercher{
+  margin-left: 49%;
+}
+
+#boutonCreer{
+  font-size: 18px;
+  margin-top :12%;
+  margin-left : 35%;
+}
+
+#Creer{
+  border : 1px solid;
+  padding: 8% 20%;
+}
+
+#blocNomClient,#blocPrenomClient,#blocAdresseClient,#blocDateDeNaissanceClient,#blocEmailClient,#blocTypeClient,#blocFidelisationClient,#blocDateInscriptionClient{
+  margin-top: 5%;
+}
+
+#blocNomClient input{
+  margin-left : 22.5%;
+}
+
+#blocPrenomClient input{
+   margin-left : 15.3%;
+}
+
+#blocAdresseClient input{
+   margin-left : 14.5%;
+}
+
+#blocEmailClient input{
+   margin-left : 19.5%;
+}
+
+#blocTypeClient input{
+  margin-left: 22.5%;
+}
+#blocFidelisationClient input {
+   margin-left: 4.5%;
+}
+
+

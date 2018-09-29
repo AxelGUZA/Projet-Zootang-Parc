@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Entreprise</title>
+		<link rel="stylesheet" type="text/css" href="../css/commun.css">
+		<link rel="stylesheet" type="text/css" href="../css/communEntreprise.css">
+		<link rel="stylesheet" type="text/css" href="../css/restaurationEntreprise.css">
+
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+
+		<div id="blockPage">
+			<header>
+				<a href="../../index.html"><img src="../images\imageLogo.png" id="imageLogo"></a>
+				<a href="accueilEntreprise.html"><h1 id="titrePrincipale">ZOOUTANG</h1></a>
+				<h3>Vous êtes Mr </h3>
+			</header>
+
+			<nav>
+				<div id="fournisseur">
+					<a href="fournisseurRestaurant.html">Fournisseur</a>
+				</div>
+
+				<div id="commande">
+					<a href="commandeRestaurant.html">Commande</a>
+				</div>
+
+				<div id="statistique">
+					<a href="statistiqueRestaurant.html">Statistique</a>
+				</div>
+
+				<div id="stock">
+					<a href="stockRestaurant.html">Stock</a>
+				</div>
+
+				<div id="contrat">
+					<a href="contratRestaurant.html">Contrat</a>
+				</div>
+
+				<div id="Restauration">
+					<a href="restauration.html">Restauration</a>
+				</div>
+
+				
+			</nav>
+
+			<section>
+				 <h2>Restauration</h2>
+
+				 <article id="blocCreerFournisseur">
+					<form>
+						<div id="blocRestaurant">
+							<label for="restaurant">Restaurant </label> :
+							 <select name="restaurant" id="restaurant">
+							 	<option value="restaurantsNord">RestaurantsNord</option>
+						 		<option value="restaurantEst">RestaurantEst</option>
+						 		<option value="restaurantsOuest">RestaurantsOuest</option>
+						 		<option value="restaurantsSud">RestaurantsSud</option>
+						 	</select>
+						</div>
+
+						<div id="blocNbTable">
+							<label for="nbTable">Nombre de table</label> :
+							 <input type="text" name="nbTable" placeholder="5" id="nbTable">	
+						</div>
+
+						<div id="blocNbCouverts">
+							<label for="nbCouverts">Nombre de couverts</label> :
+							 <input type="text" name="nbCouverts" placeholder="25" id="nbCouverts">	
+						</div>
+
+						
+						 <div id="blocStock">
+						 	<label for="stock">Stocks</label> :
+						 	<select name="stock" id="stock">
+						 		<option value="averifier">A Verifier</option>
+						 		<option value="plein">Plein</option>
+						 	</select>
+						 </div>	
+
+						 <div id="blocRecette">
+							<label for="recette">Recette</label> :
+							 <input type="text" name="recette" placeholder="500" id="recette">	
+						</div>
+
+					</form>	
+					
+					<div id="boutonCreer">
+						<a href="#" id="Creer">Créer</a>
+					</div>
+				</article>
+
+				<article>
+					<div id="blocInformation">
+						<aside id="blocTextInformation">
+
+							<table>
+								<tr>
+									<td>Nom</td>
+									<td>Nombre de table</td>
+									<td>Nombre de couvertsservies</td>
+									<td>Stock</td>
+									<td>Recette du jour</td>
+									
+								</tr>
+								<tr>
+									<td>RestaurantsNord</td>
+									<td>5</td>
+									<td>25</td>
+									<td>A verifier</td>
+									<td>500€</td>
+									
+								</tr>
+
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									
+								</tr>
+							</table>
+							
+						</aside>
+						<div id="blocBoutonInformation">
+							<a href="#" id="modifier">Modifier</a>
+							<a href="#" id="rechercher">Rechercher</a>
+						</div>
+				</article>
+
+			</section>
+
+			<footer>
+				
+			</footer>
+		</div>
+
+	</body>
+
+</html>

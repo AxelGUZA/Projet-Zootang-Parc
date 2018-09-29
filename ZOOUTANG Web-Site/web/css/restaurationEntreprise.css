@@ -1,0 +1,35 @@
+#blocTextInformation{
+  margin-left: 2%;
+}
+
+#rechercher{
+  margin-left: 33.5%;
+}
+
+#Creer
+{
+  margin-left: 30%;
+}
+
+#restaurant
+{
+  margin-left: 27.5%;
+}
+
+#nbTable{
+  margin-left: 7.8%;
+}
+
+#stock{
+  margin-left: 52.3%;
+}
+
+#recette{
+  margin-left: 28.25%;
+}
+
+#fournisseur,#commande,#salarie,#clients,#Stock,#statistique,#materiel,#intervention,#maintenance,#contrat,#Restauration{
+	display: inline-block;
+	padding: 1% 0.4867%;
+}
+

@@ -1,0 +1,21 @@
+#blocModifierClient div{
+  width: 20%;
+  display: inline-block;
+}
+
+#blocModifierClient{
+  margin-left:8%;
+    margin-right:0%;
+}
+
+#nomClient{
+  margin-left: 2.5%;
+}
+
+#type{
+  margin-left: 7.5%;
+}
+
+#adresseClient{
+  margin-left: 9.5%;
+}

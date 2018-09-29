@@ -1,0 +1,34 @@
+
+/* Page Principale */ 
+
+nav
+{
+	margin-top : 8%;
+}
+
+#lienEntreprise{
+	margin-top: 9%;
+}
+
+#boutonClient{
+	margin-left: 40.5%;
+	padding: 30px 57.5px;
+	background: white;
+	font-size: 32px;
+	border: 1px solid black;
+
+}
+
+#boutonEntreprise
+{
+	margin-top : 5%;
+	margin-left:40.5%;
+	padding: 30px;
+	background: white;
+	font-size: 32px;
+	border: 1px solid black;
+}
+
+#boutonClient:hover,#boutonEntreprise:hover{
+	background-color: grey;
+}

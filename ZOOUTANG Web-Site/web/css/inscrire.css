@@ -1,0 +1,108 @@
+
+/* Page de Billeterie */
+
+nav {
+	margin: 1% 5%;
+	border : 1px solid black;
+}
+
+nav a {
+	font-size: 25px;
+	
+} 
+
+#billeterie,#restauration,#statistique,#inscrisption,#connecte{
+	display: inline-block;
+	padding: 1% 2%;
+}
+
+#billeterie:hover,#inscrisption:hover,#connecte:hover{
+	background-color: grey;
+}
+
+#restauration:hover{
+	background-color: grey;
+}
+
+#statistique:hover,#Creer a:hover{
+	background-color: grey;
+}
+
+#inscrisption{
+	margin-left: 46.5%;
+}
+
+section article aside{
+	display: inline-block; 
+	margin: 0% 2% 2% 5%;
+	margin-top: 2%;
+}
+
+
+
+h2{
+	margin:0% 5%;
+	font-size: 28px;
+}
+
+h3{
+	
+	margin-left: 72%;
+}
+
+
+
+h4{
+	font-size: 20px;
+	margin-bottom: 10%;
+}
+
+li { 
+margin: 5% 5%;
+}
+aside{
+	padding-left: 18%;
+}
+
+form{
+	width: 100%;
+	margin: 5% 0% 0% 50%;
+}
+
+form input{
+	width: 28%;
+	margin-bottom: 5%;
+}
+#nom input{
+	margin-left: 17%;
+}
+
+#prenom input{
+	margin-left: 13.5%;
+}
+
+
+#adresse input{
+	margin-left: 13.35%;
+}
+
+#DateNaissande input{
+	margin-left: 0.7%;
+}
+
+#email input{
+	margin-left: 14.2%;
+}
+#Creer{
+	margin-left: 48%;
+}
+#Creer a{
+	border: 1px solid black;
+	font-size: 20px;
+	padding:2% 4%;
+}
+
+section p{
+	margin-top: 2%;
+	margin-left: 5%;
+}

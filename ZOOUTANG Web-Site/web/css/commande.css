@@ -1,0 +1,61 @@
+#blocCreerCommande{
+  float: right;
+  margin-right : 15%;
+  margin-top : 8%;
+}
+
+#boutonCreer{
+  margin-top:10%;
+  margin-left:30%;
+}
+
+#Creer{
+   border: 1px solid black; 
+  padding: 5% 14%;
+  
+}
+
+#blocTextInformation{
+  margin-left: 5%;
+  width: 32%;
+  padding-bottom: 1%;
+  padding-left: 0%;
+  padding-top: 1%;
+}
+
+#blocBoutonInformation{
+  margin-left: 4.8%;
+}
+
+#modifier {
+ border: 1px solid black; 
+  padding: 1% 2%;
+}
+
+#rechercher{
+  border: 1px solid black;
+  padding: 1% 2%;
+  margin-left:38.5%;
+}
+
+#blocContact,#blocCommande,#blocDateCommande,#blocDateReception{
+  margin-bottom: 2%;
+}
+
+#blocContact input{
+  margin-left: 12.9%;
+}
+
+#blocDateCommande input{
+   margin-left: 7.14%;
+}
+
+#blocDateReception input{
+   margin-left:10.65%;
+}
+
+#blocTextInformation{
+  margin-bottom: 1%;
+}
+table{
+  width: 170%;

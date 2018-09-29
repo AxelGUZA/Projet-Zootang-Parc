@@ -1,0 +1,23 @@
+nav{
+	font-size:2px;
+}
+
+#statistiqueNbVisiteur,#statistiqueChiffreP,#statistiqueChiffreR,#statistiqueCouvertServie,#statistiquefrequentation,#statistiqueFrequentationAtraction,#statistiqueMaintenance,#statistiqueNbVisiteur{
+  	display: inline-block;
+	padding: 1% 3.584%;
+	width: 7%;
+border-right: 1px solid;
+
+}
+
+#statistiqueFrequentationAtraction{
+	border-right: none;
+}
+
+#statistiqueNbVisiteur:hover,#statistiqueChiffreP:hover,#statistiqueChiffreR:hover,#statistiqueCouvertServie:hover,#statistiquefrequentation:hover,#statistiqueFrequentationAtraction:hover,#statistiqueMaintenance:hover,#statistiqueNbVisiteur:hover{
+background-color: grey;
+}
+
+form div{
+	margin-bottom: 7%;
+}

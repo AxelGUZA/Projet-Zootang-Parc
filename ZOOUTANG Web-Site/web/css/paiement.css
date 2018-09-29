@@ -1,0 +1,29 @@
+table{
+  width: 210%;
+}
+
+#blocCreerFournisseur{
+  margin-top:6%;
+}
+
+#blocTextInformation{
+   margin-left: 2%;
+}
+
+#rechercher{
+  margin-left:29.5%
+}
+
+#type{
+  margin-left:24%;
+}
+
+#nom{
+  margin-left:10%
+}
+#iban{
+  margin-left:6.5%
+}
+#date{
+  margin-left:11%
+}

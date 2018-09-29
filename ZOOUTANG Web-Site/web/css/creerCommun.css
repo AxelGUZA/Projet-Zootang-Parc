@@ -1,0 +1,16 @@
+#blocInformation{
+ 
+  margin-left: 10%;
+}
+
+#blocInformation p{
+  margin-left: 32%;
+}
+ 
+#BlocBoutonModif{
+  margin-top: 1%;
+}
+
+tr td a{
+  color: RED;
+}

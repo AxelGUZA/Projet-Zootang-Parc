@@ -1,0 +1,46 @@
+/*page de gestion des comptes*/
+
+nav {
+  margin-left : 40.5%;
+
+}
+
+ #boutonDirecteur,#boutonRestaurant,#boutonSalarie,#boutonSecretaire,#boutonSoigneur{
+  
+  font-size: 25px;
+  
+  border :1px solid black;
+}
+
+#lienDirecteur,#lienRestaurant,#lienSalarie,#lienSecretaire,#lienSoigneur{
+ margin-top: 6%; 
+}
+
+#boutonSalarie{
+  padding: 2% 13.5%;
+}
+
+#boutonSoigneur{
+  padding: 2% 12.21%;
+}
+
+#boutonRestaurant{
+  padding: 2% 11.2%;
+}
+
+#boutonSecretaire{
+  padding: 2% 11.7%;
+}
+
+#boutonDirecteur{
+  padding: 2% 12.1%;
+}
+
+#boutonDirecteur:hover,#boutonRestaurant:hover,#boutonSalarie:hover,#boutonSecretaire:hover,#boutonSoigneur:hover{
+  background-color: grey;
+}
+
+h3{
+	font-size: 19px;
+	margin-left: 58%;
+}

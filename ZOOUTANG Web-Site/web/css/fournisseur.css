@@ -1,0 +1,74 @@
+#blocCreerFournisseur{
+  margin-top: 4%;
+}
+
+#blocInformation
+{
+  margin: 0% 0% 5% 0%;
+   
+}
+
+#blocTextInformation {
+
+ 
+  width: 25%;
+  padding: 1% 2% 2% 0.5%;
+  
+}
+
+
+#blocBoutonInformation {
+   margin-left: 5%;
+  
+}
+
+#blocBoutonInformation a{
+  border: 1px solid;
+  padding: 1% 2%;
+}
+
+#blocBoutonInformation a:hover{
+  background-color: grey;
+}
+
+#rechercher{
+  margin-left: 39.8%;
+}
+
+
+
+#boutonCreer{
+  font-size: 18px;
+  margin-top :12%;
+  margin-left : 35%;
+}
+
+#Creer{
+  border : 1px solid;
+  padding: 8% 20%;
+}
+
+#blocContact,#blocEntreprise,#blocDomaine,#email,#adresseEntreprise{
+  margin-bottom: 2%;
+}
+
+#blocContact input{
+  margin-left: 14%;
+}
+
+#blocEmail input{
+  margin-left: 36%;
+}
+#blocEntreprise input{
+  margin-left:8%;
+}
+
+#blocDomaine input{
+  margin-left:9.6%;
+}
+
+#blocSiret input{
+  margin-left: 9.3%;
+}
+table{
+  width: 220%;}

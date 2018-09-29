@@ -1,0 +1,44 @@
+#blocCreerCommun{
+  margin-top:2%;
+  margin-right: 2%;
+}
+
+#blocTextInformation {
+	padding: 0% 0% 1% 0%;
+}
+
+#rechercher{
+  margin-left: 51.2%;
+}
+
+#boutonCreer{
+  margin-left: 38%;
+}
+
+#numero{
+  margin-left: 32%;
+}
+
+#type{
+   margin-left: 38.5%;
+}
+
+#model{
+   margin-left: 35%;
+}
+
+#marque{
+   margin-left: 32.5%;
+}
+
+#ancienter{
+   margin-left: 50%;
+}
+
+#dateInstallation{
+   margin-left: 20%;
+}
+
+#nombreDeReparation{
+  margin-left: 2%;
+}
